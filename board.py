@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
 import time
-from algorithms import *
+from algorithms import BFSSolver, CSPSolver
 
 BOARD_SIZE = 8
 CELL_SIZE = 60
@@ -346,4 +346,5 @@ class QueensApp(tk.Tk):
             
         elif result == 'done':
             self.running = False
+
             self._update_controls(is_running=False)
