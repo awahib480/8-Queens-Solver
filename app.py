@@ -1,4 +1,4 @@
-from board import *
+from board import QueensApp
 
 BOARD_SIZE = 8
 CELL_SIZE = 60
